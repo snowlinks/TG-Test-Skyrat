@@ -1125,18 +1125,6 @@
 /obj/item/gun/magic/wand/resurrection/debug,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
-"eb" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 2;
-	height = 5;
-	id = "laborcamp_home";
-	name = "fore bay 1";
-	roundstart_template = /datum/map_template/shuttle/labour/box;
-	width = 9
-	},
-/turf/open/space/basic,
-/area/space)
 "ec" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -1976,6 +1964,18 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/science)
+"jd" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 2;
+	height = 5;
+	id = "laborcamp_home";
+	name = "fore bay 1";
+	roundstart_template = /datum/map_template/shuttle/labour/box;
+	width = 9
+	},
+/turf/open/space/basic,
+/area/space)
 "jE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
@@ -2018,6 +2018,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/engineering/main)
+"ln" = (
+/obj/structure/cable,
+/obj/machinery/power/rtg/debug,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "lX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -2103,11 +2108,6 @@
 /obj/machinery/door/airlock/shell,
 /turf/open/floor/iron/dark,
 /area/construction)
-"sE" = (
-/obj/machinery/power/rtg/advanced,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "sH" = (
 /obj/structure/table,
 /obj/item/storage/box/shipping,
@@ -5445,7 +5445,7 @@ aa
 aa
 aa
 aa
-eb
+jd
 aa
 aa
 dY
@@ -6636,11 +6636,11 @@ aa
 aa
 ae
 ab
-sE
-sE
-sE
-sE
-sE
+ln
+ln
+ln
+ln
+ln
 ab
 bv
 bI
@@ -6728,11 +6728,11 @@ aa
 aa
 ae
 ab
-sE
+ln
 an
-sE
+ln
 an
-sE
+ln
 ab
 bv
 BG
@@ -6820,11 +6820,11 @@ aa
 aa
 ae
 ab
-sE
+ln
 an
 ao
 an
-sE
+ln
 ab
 bv
 bJ
