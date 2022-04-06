@@ -721,7 +721,11 @@
 	. = health
 	for (var/_limb in bodyparts)
 		var/obj/item/bodypart/limb = _limb
+<<<<<<< HEAD
 		if (limb.status != BODYPART_ORGANIC)
+=======
+		if (!IS_ORGANIC_LIMB(limb))
+>>>>>>> 6eaa5111cb0 (Fixes cryocells not working properly. (#65904))
 			. += (limb.brute_dam * limb.body_damage_coeff) + (limb.burn_dam * limb.body_damage_coeff)
 
 /mob/living/carbon/grabbedby(mob/living/carbon/user, supress_message = FALSE)
